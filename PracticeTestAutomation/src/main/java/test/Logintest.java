@@ -15,7 +15,7 @@ public class Logintest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        // Enter credentials
+       
         driver.findElement(By.id("username")).sendKeys("student");
         driver.findElement(By.id("password")).sendKeys("Password123");
         driver.findElement(By.id("submit")).click();
